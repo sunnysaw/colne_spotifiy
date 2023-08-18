@@ -1,0 +1,65 @@
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Sansita Swashed', cursive;
+}
+
+nav ul{
+    display: flex;
+    align-content: center;
+    list-style-type: none;
+    height: 55px;
+    background-color: rgb(91, 130, 117);
+    color: azure;
+}
+nav ul li{
+    padding:  0 12px;
+}
+.brand img{
+ width: 44px;  
+ padding: 0 8px; 
+}
+.brand {
+    display: flex;
+    /* align-items: center; 
+     font-weight: 1.3rem; */
+}
+.container{
+    min-height: 72vh;
+    background-color: rgb(210, 212, 193);
+    color: rgb(245, 203, 203);
+    display: flex;
+    font-family: 'Sansita Swashed', cursive;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 13px;
+    padding: 34px;
+    background-image: url(./js/image/bg.jpg);
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: rgb(179, 185, 190);
+    color: rgb(14, 26, 30);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.icon{
+    margin-top: 14px ;
+}
+.icon{
+    cursor: pointer;
+}
+#myprogressBar{
+    width: 80vw;
+    text-align: center;
+}
